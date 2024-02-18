@@ -1,1 +1,1 @@
-These are the TypeScript Excercise for GIAIC Course 
+These are the TypeScript Excercises for GIAIC Course 
