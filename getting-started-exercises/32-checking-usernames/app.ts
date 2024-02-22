@@ -5,7 +5,7 @@
 • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted. */
 
 let current_users:string [] = ["Kamran", "Jamal", "Ahmed", "ali", "Amjad"]
-let new_users:string [] = ["jamal", "Sohail", "Sabir", "Ahmed", "Zain"] 
+let new_users:string [] = ["jamal", "Sohail", "Sabir", "Ahmed", "Waseem"] 
 let current_users_lower:string [] = current_users.map( user => user.toLowerCase())
 
 

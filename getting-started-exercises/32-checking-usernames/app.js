@@ -5,7 +5,7 @@
 • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
 • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted. */
 let current_users = ["Kamran", "Jamal", "Ahmed", "ali", "Amjad"];
-let new_users = ["jamal", "Sohail", "Sabir", "Ahmed", "Zain"];
+let new_users = ["jamal", "Sohail", "Sabir", "Ahmed", "Waseem"];
 let current_users_lower = current_users.map(user => user.toLowerCase());
 for (let user of new_users) {
     if (current_users_lower.includes(user.toLowerCase())) {
