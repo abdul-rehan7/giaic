@@ -16,12 +16,11 @@ show_magicians(names)
 
 // Define a function called make_great that modifies the array of magicians
 
-function make_great(magicians: string[]): string[]{
-    const names = magicians.map( magician => "The Great " + magician)
-    return names;
+function make_great(magicians: string[]): void{
+   for (let i = 0; i < magicians.length; i++){
+    magicians[i] =  'The Great' + magicians[i]
+   }
 }
 
-// Example
+make_great(names)
 
-const greatmagicians:string [] = make_great(names);
-console.log(greatmagicians)
